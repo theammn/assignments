@@ -4,10 +4,10 @@
 
 import sys
 
-def file_statistics(filename):
+def file_statistics(text):
     """Function to compute characters, lines, and words from the given file."""
     try:
-        with open(filename, 'r') as file:
+        with open(text, 'r') as file:
             num_characters = num_lines = num_words = 0
             for line in file:
                 num_lines += 1
@@ -15,12 +15,12 @@ def file_statistics(filename):
                 num_words += len(line.split())
         return num_characters, num_lines, num_words
     except FileNotFoundError:
-        print(f"File not found: {filename}")
+        print(f"File not found: {text}")
         return -1, -1, -1
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: python script.py filename")
+        print("Usage: python script.py text")
         sys.exit(1)
 
     file = sys.argv[1]
@@ -30,6 +30,4 @@ def main():
         print(f"The file has {num_characters} characters")
         print(f"The file has {num_lines} lines")
         print(f"The file has {num_words} words")
-
-if __name__ == "__main__":
-    main()
+main()
