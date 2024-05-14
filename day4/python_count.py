@@ -5,7 +5,6 @@
 import sys
 
 def file_statistics(text):
-    """Function to compute characters, lines, and words from the given file."""
     try:
         with open(text, 'r') as file:
             num_characters = num_lines = num_words = 0
