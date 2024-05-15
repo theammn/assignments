@@ -47,6 +47,4 @@ def main():
             keep_playing = input("Do you want to play another game? (yes/no): ").lower() == 'yes'
         else:
             keep_playing = input("Start a new game? (yes/no): ").lower() == 'yes'
-
-if __name__ == "__main__":
-    main()
+main()
