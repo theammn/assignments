@@ -1,5 +1,5 @@
 import sys
-from file_utils import file_statistics
+from functions import file_statistics
 
 def main():
     if len(sys.argv) < 2:
