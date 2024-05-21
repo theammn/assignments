@@ -1,6 +1,5 @@
-# test_file_utils.py
 import unittest
-from file_utils import count_characters, count_words, count_lines, file_statistics
+from functions import count_characters, count_words, count_lines, file_statistics
 
 class TestUtils(unittest.TestCase):
     def test_count_characters(self):
