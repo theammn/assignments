@@ -1,5 +1,5 @@
 import pandas as pd
-from main import calculate_real_change, calculate_fold_change, calculate_avg_fold_changes
+from functions import calculate_real_change, calculate_fold_change, calculate_avg_fold_changes
 
 def test_calculate_real_change():
     test_data = pd.DataFrame({

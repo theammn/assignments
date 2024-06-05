@@ -8,7 +8,7 @@ def load_data(file_path):
 
 def calculate_real_change(data):
     """Calculate Real Change."""
-    data['Real_Change'] = 2 ** -data['dCT']
+    data['Real_Change'] = 2 ** -data['dCT'].astype(float)
     return data
 
 def calculate_fold_change(data):
