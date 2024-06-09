@@ -19,9 +19,11 @@ python ncbi_protein.py TERM NUMBER
 ```
 
 TERM: The search term for querying the NCBI database.
+
 NUMBER: The maximum number of items to download.
 
 Installation
+
 You can install the required libraries using pip:
 
 ```sh
