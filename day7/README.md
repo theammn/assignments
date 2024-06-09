@@ -16,6 +16,7 @@ This tool downloads data from the NCBI protein database based on a search term a
 ```sh
 python ncbi.py TERM NUMBER
 python ncbi_protein.py TERM NUMBER
+```
 
 TERM: The search term for querying the NCBI database.
 NUMBER: The maximum number of items to download.
@@ -23,6 +24,6 @@ NUMBER: The maximum number of items to download.
 Installation
 You can install the required libraries using pip:
 
-sh
-Copier le code
+```sh
 pip install -r requirements.txt
+```
