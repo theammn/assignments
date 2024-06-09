@@ -22,10 +22,15 @@ TERM: The search term for querying the NCBI database.
 
 NUMBER: The maximum number of items to download.
 
-Installation
+### Installation
 
 You can install the required libraries using pip:
 
 ```sh
 pip install -r requirements.txt
+```
+### Example 
+```sh
+python ncbi.py cauliflower 7
+python ncbi_protein.py TARDBP 4
 ```
