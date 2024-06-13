@@ -31,9 +31,3 @@ def test_calculate_avg_fold_changes():
     assert 'srsf5' in avg_fold_changes, "Average fold change calculation failed for srsf5"
     assert 'supt6h_c2' in avg_fold_changes, "Average fold change calculation failed for supt6h_c2"
     assert 'supt6h_c5' in avg_fold_changes, "Average fold change calculation failed for supt6h_c5"
-
-if __name__ == "__main__":
-    test_calculate_real_change()
-    test_calculate_fold_change()
-    test_calculate_avg_fold_changes()
-    print("All tests passed!")
