@@ -13,6 +13,7 @@ To run the script, use the following command format:
 ```bash
 python analysis.py tdp43.fasta --gc_content --duplicate
 ```
+Make sure, to have install beforehand the requirements.
 
 Here as an example, we have the fasta file of TDP-43 (TAR DNA-binding protein 43), which is a protein involved in RNA processing and is implicated in neurodegenerative diseases like ALS and frontotemporal dementia.
 
