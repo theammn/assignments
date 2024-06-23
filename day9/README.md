@@ -11,7 +11,7 @@ This script analyzes DNA sequences from a FASTA or GeneBank file. It can perform
 To run the script, use the following command format:
 
 ```bash
-python analyze.py FILE [--duplicate] [--gc_content]
+python analysis.py tdp43.fasta [--duplicate] [--gc_content]
 ```
 
 Here as an example, we have the fasta file of TDP-43 (TAR DNA-binding protein 43), which is a protein involved in RNA processing and is implicated in neurodegenerative diseases like ALS and frontotemporal dementia.
